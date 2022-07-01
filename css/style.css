@@ -3,7 +3,7 @@
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 body{
-    background-image: url(/img/bg-tablet-pattern.svg);
+    background-image: url(../img/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position-x: 60vw;
@@ -179,7 +179,7 @@ div p{
 /*Estilos del main - Sección 4 - Simplify */
 
 .seccionsimplify{
-    background-image: url(/img/bg-simplify-section-desktop.svg);
+    background-image: url(../img/bg-simplify-section-desktop.svg);
     background-color: #F3613C;
     color: #ffffff;
     height: 25vh;
