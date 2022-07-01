@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+body{
+    background-image: url(/img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 60vw;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 2rem;
+}
+
+/*Estilos del encabezado*/
+
+header{
+    padding: 3% 4%;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    margin: 4%;
+}
+header nav{
+    width:60%;
+    margin-right: 8%;
+    display: flex;
+    align-items: center;
+    color: #242E52;
+}
+nav a{
+    color: #242E52;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+header a{
+    margin-top: 6vh;
+    margin-right: 4vw;
+}
+.elementoget{
+    background-color: #F3603B;
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #ffffff;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.hamburguesa{
+    display: none;
+}
+
+
+/*Estilos del main - Sección - Article*/
+
+.seccion1{
+    display: flex;
+}
+.cajaarticle1{
+    width: 42%;
+    height: 70vh;
+    margin: 5% 7%;
+}
+h1{
+    color: #232C50;
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
+article p{
+    width: 75%;
+    margin-bottom: 0%;
+}
+article div{
+    margin-top: 3vh;
+}
+section img{
+    
+    width: 42%;
+    height: 70vh;
+    margin: 5% 7%;
+}
+
+/*Estilos del main - Sección 2 - Article 2*/
+
+.seccion2{
+    display: flex;
+}
+.cajaarticle2{
+    color: #232C50;
+    width: 34%;
+    height: 70vh;
+    margin: 5% 7%;
+}
+section ul{
+    list-style: none;
+    width: 39%;
+    height: 70vh;
+    margin: 5% 7%;
+    padding-top: 2vh;
+    padding-left: 0;
+    color: #B3B2B7;
+    
+}
+section ul li{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #232851;
+    ;
+}
+.botones{
+    width: 4vw;
+    height: 5vh;
+    margin: 1% 1%;
+}
+ul p{
+    margin-left: 12%;
+}
+
+/*Estilos del main - Sección 3 - Cards */
+
+.posicionh2{
+    margin-top: 5vh;
+    color: #242E53;
+}
+.seccion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cajacards{
+    margin-bottom: 1vh;
+    display: flex;
+    
+}
+.cards {
+    background-color: #F3F3F3;
+    width: 30vw;
+    height: 30vh;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagencard{
+    position: absolute;
+    width: 7vw;
+    height: 14vh;
+    margin-top: -8vh;   
+    margin-left: 0;
+}
+h4{
+    margin-top: 8vh;
+    color: #3F4868;
+}
+div p{
+    text-align: center;
+    margin-top: 0;
+    color: #B9B9C1;
+}
+.posicionget{
+    margin-bottom: 15vh;
+}
+
+
+/*Estilos del main - Sección 4 - Simplify */
+
+.seccionsimplify{
+    background-image: url(/img/bg-simplify-section-desktop.svg);
+    background-color: #F3613C;
+    color: #ffffff;
+    height: 25vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.cajah2{
+    width: 35vw;
+}
+.elementogetblanco{
+    background-color: #ffffff;
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #F3603B;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*Estilos del Footer */
+
+footer{
+    background-color: #1E1E26;
+    height: 25vh;
+    padding-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+}
+.seccion4{
+    display: flex;
+}
+.cajalogo{
+    width: 13vw;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cajaiconos{
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+.logofooter{
+    width: 10vw;
+    height: 4vh;
+    margin: 0;
+}
+.cajamenus{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cajamenu1{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    line-height: 4vh;
+}
+.cajamenu2{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    line-height: 4vh;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cajaform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cajasuscripcion{
+    margin-left: 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.botongo{
+    color: white;
+    background-color: #F3603B;
+    width: 5vw;
+    padding: 0.5vw ;
+    margin: 0.5vw 5vw 0.5vw 0.2vw;
+    border-radius: 50px;
+    border: 0;
+}
+.campoupdate{
+    background-color: #ffffff;
+    width: 10vw;
+    height: 3vh;
+    padding: 0.5vh 5vw 0.5vw 0.2vw;
+    border-radius: 50px;
+    border: 0;
+}
+footer p{
+    color: #8C8C94;
+}
+input:invalid{
+    color: red;
+}
+
+/* Pseudoclases generales*/
+nav a:hover{
+    color: rgb(143, 148, 167);
+    cursor: pointer;
+}
+header a :hover{
+    background-color: rgb(226, 126, 93);
+    cursor: pointer;
+}
+.seccion1 a :hover{
+    background-color: rgb(226, 126, 93);
+    cursor: pointer;
+}
+.seccion3 a :hover{
+    background-color: rgb(226, 126, 93);
+}
+.seccionsimplify>a :hover{
+    color: rgb(226, 126, 93);
+    cursor: pointer;
+}
+footer a :hover{
+    color: rgb(242, 95, 58);
+    cursor: pointer;
+}
+.cajamenus :hover{
+    color: rgb(242, 95, 58);
+    cursor: pointer;
+}
+form a :hover{
+    background-color: rgb(226, 126, 93);
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+/* Responsive para celulares */
+
+@media (max-width: 375px) {
+    body{
+        background-size: 140%;
+        background-position-x: 0;
+        background-position-y: -10vw;
+    }
+    header nav{
+        display: none;        
+    }
+    header .elementoget{
+        display: none;
+    }
+    .hamburguesa{
+        display:flex;
+    }
+    .elementoget{
+        width: 35vw;
+        font-size: 0.75rem;
+    }
+    .seccion1{
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .cajaarticle1{
+        width: 93vw;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section img{
+        width: auto;
+    }
+    article p{
+        align-items: center;
+    }
+    article div{
+        width: auto;
+        font-size: 0.75rem;
+    }
+    .seccion2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajaarticle2{
+        width: 93vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section ul{
+        width: 93vw;
+        font-size: 0.75rem;
+    }
+    .botones{
+    height: 6vh;
+    width: 13vw;
+    margin-left: 0;
+    }
+    ul p{
+        margin-left: 0;
+    }
+    .cajacards{
+        flex-direction: column;
+    }
+    .cards{
+    font-size: 0.75rem;
+    width: auto;
+    height: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    }
+    .imagencard{
+        width: auto;
+    }
+    .seccionsimplify{
+        background-image: url(/img/bg-simplify-section-mobile.svg);
+        background-repeat: no-repeat;
+        flex-direction: column;
+        height: 60vh;
+        padding-top: 10vh;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    .elementogetblanco{
+        width: 35vw;
+        font-size: 0.75rem;
+        margin-bottom: 10vh;
+    }
+    .cajah2{
+        width: 58%;
+    }
+    footer{
+        height: 70vh;
+    }
+    .seccion4{
+        flex-direction: column-reverse;
+    }
+    .cajaform{
+        position: absolute;
+        height: 70vh;
+        justify-content: space-between;
+    }
+    .cajasuscripcion{
+        margin-top: 0;
+    }
+    .campoupdate{
+        width: auto;
+        height: 5vh;
+    }
+    .botongo{
+        margin-left: 2vw;
+        width: 15vw;
+        height: 5vh;
+    }
+    .cajamenus{
+        margin-top: 0vh;
+        width: 75vw;
+        height: 25vh;
+        justify-content: space-between;
+    }
+    .cajamenu1{
+        line-height: 6vh;
+    }
+    .cajamenu2{
+        line-height: 6vh;
+    }
+    .cajalogo{
+        width: 80vw;
+        margin-top: 5vh;
+        margin-bottom: 8vh;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .cajaiconos{
+        width: 80vw;
+        font-size: 2rem;
+        justify-content: space-between;
+    }
+    .logofooter{
+        width: auto;
+    }
+    .fondolista{
+        background-color: rgba(242, 95, 58,0.2);
+        height: 5vh;
+    }
+}
+
+
+
+
